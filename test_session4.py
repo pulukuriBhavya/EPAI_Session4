@@ -68,12 +68,9 @@ def test_add_equals_multiply():
     obj = session4.Qualean(1)
     value = obj.__magic_num__()
     mul = value * 100
+    mul = int(mul)
+    add_no = 0
     for i in range(100):
-        value =+ value
-    assert mul == value, "Adding a value 100 times does not equal to multiplying value with 100"
-    
-
-        
-    
-        
-    
+        add_no = add_no + value
+    add_no = int(add_no)
+    assert mul == add_no, "Adding a value 100 times does not equal to multiplying value with 100"
