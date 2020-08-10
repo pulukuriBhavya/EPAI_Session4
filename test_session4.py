@@ -29,7 +29,7 @@ def test_qualean_repr():
 
 def test_qualean_str():
     r = session4.Qualean(x)
-    assert r.__str__() == f'Qualean: Num ={x}', 'The print of the Qualean object does not meet expectations'
+    assert r.__str__() == f'Qualean: Num = {x}', 'The print of the Qualean object does not meet expectations'
 
 def test_Qualean_input():    
     with pytest.raises(ValueError) as e_info:

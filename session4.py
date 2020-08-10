@@ -23,7 +23,7 @@ class Qualean():
             self._x = x
 
     def __repr__(self):
-        return "Qualean('%s')" % (self.x)
+        return "Qualean(%s)" % (self.x)
 
     def __str__(self):
         return 'Qualean: Num = %s'% (self.x)
