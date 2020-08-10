@@ -32,6 +32,9 @@ Session4.py consists of a class called Qualean which is a combination of Quantum
 - invertsign function chnages the sign of the given Qualean number
 - le function returns true if obj1 is less than or equal to obj 2
 - lt function returns true if obj1 is less than obj 2
+- mul function multiplies the two Qualean 
+- sqrt function returns the square root of a qualean number
+- bool function returns the boolean value of a qualean number
 
 
 ### test_session4.py
@@ -42,6 +45,8 @@ test_session4.py consists of 10 test cases which will get passed once we make th
 
 - test_qualean_functions_avaiable to check if the class has implemented all the functions
 - test_class_repr to check for objects returing from repr functions
+- test_class_str to check for string returing from str functions
+- test_add_equals_multiply check for equality between a number added 100 times and multiplied 100 times
 - test_fourspace and test_function_name_had_cap_letter to check for indentation and function name having capital letter.
  
 
