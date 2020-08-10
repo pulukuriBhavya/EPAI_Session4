@@ -24,12 +24,15 @@ Session4.py consists of a class called Qualean which is a combination of Quantum
 - and function takes two different parameters and performs logical and operation.
 - repr function returns the printable representation of the given object.
 - str function returns the informal string representation of the given object.
-- add function returnts the sum of given Qualean numbers. 
+- add function returns the sum of given Qualean numbers. 
 - eq checks for equality between the given Qualean numbers.
-- compare_strings_new is a function where two strings are interned and are repeated over 200 times and compared, also look for a particular character in one of the strings after converting the string to a char_set
-- The computational time difference between the two functions (compare_strings_old and compare_strings_new) varies ten fold since we are using interning also search in sets in computationally
- faster than lists since sets are hash based.
-- sleep function is used in compare_strings_new to suspend the execution for a given number of seconds, here it is 6.
+- float function converts the Qualean number into a boolean
+- ge function returns true if obj1 is greater than or equal to obj 2
+- gt function returns true if obj1 is greater than obj 2
+- invertsign function chnages the sign of the given Qualean number
+- le function returns true if obj1 is less than or equal to obj 2
+- lt function returns true if obj1 is less than obj 2
+
 
 ### test_session4.py
 
